@@ -1,0 +1,312 @@
+/* для футера */
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+.wrapper{
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+/* для футера(конец) */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../img/background_039.jpg);
+    background-size: cover;
+    margin: 0;
+    position: relative;
+}
+header{
+    margin-top: 20px;
+    font-family: fantasy;
+}
+ /* .dws-menu это само меню */
+.dws-menu *{
+    margin: 0;
+    padding: 0;
+    margin-bottom: px;
+}
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+}
+.dws-menu > ul{
+    display: flex;
+    justify-content: center;
+}
+.dws-menu > ul li a{
+    display: block;
+    background: #ececed;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.dws-menu > ul li{
+    position: relative;
+    border-right: 1px solid #c7c8ca;
+}
+.dws-menu > ul li > a i.fa{
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+.dws-menu > ul li:first-child{
+    border-left: 1px solid black;
+}
+.dws-menu > ul li:last-child{
+    border-right: 1px solid black;
+}
+ /* анимация при наведении */
+.dws-menu li a:hover{
+    background: #454547;
+    color: white;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+.SweetHome h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    color: white;
+    background-color: #454547;
+    margin-left: 40%;
+    margin-right: 40%;
+    cursor: pointer;
+}
+.line1{
+    background-color: darkslategray;
+    height: 2px;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 30px;
+}
+.line2{
+    background-color: darkslategray;
+    height: 2px;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+.main{
+    background-color: white;
+    height: 1500px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 30px;
+    padding-top: 2%;
+    border-radius: 20px;
+}
+.main h1{
+    color: #333333;
+    font-size: x-large;
+    font-family: sans-serif;
+    margin: 5%;
+    text-align: center;
+}
+.podmain h1{
+    color: red;
+}
+.main2{
+    background-color: white;
+    height: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 20px;
+}
+.main2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:#333333;
+    padding: 2%;
+    text-align: center;
+}
+.staysafe{
+    text-align: center;
+    margin: 5%;
+}
+/* Актуальные */
+.product-wrapper {
+	display: block;
+	max-width: 100%;
+	float: left;
+    transition: width .2s;
+    color: black;
+}
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}
+.product {
+	display: block;
+	border: 1px solid orangered;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+    height: 300px;
+}
+.products {
+	list-style: none;
+	margin: 0 -20px 0 0;
+    padding: 4%;
+}
+.magaz li{
+    opacity: 0.6;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.magaz li:hover{
+    opacity: 1;
+    transition: .3s all ease;
+}
+.magaz a{
+    font-family: fantasy;
+    font-size: 20px;
+    color: black;
+}
+.magaz p{
+    float: left;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 40%;
+}
+.sverxy{
+    background-color: orangered;
+    margin: 1% 20% 1% 20%;
+    height: 3px;
+}
+/* Популярные */
+.product-wrapper {
+	display: block;
+	max-width: 100%;
+	float: left;
+    transition: width .2s;
+    color: black;
+}
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}
+.product {
+	display: block;
+	border: 1px solid orangered;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+    height: 300px;
+}
+.products {
+	list-style: none;
+	margin: 0 -20px 0 0;
+    padding: 4%;
+}
+.forward li{
+    opacity: 0.6;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.forward li:hover{
+    opacity: 1;
+    transition: .3s all ease;
+}
+.forward a{
+    font-family: fantasy;
+    font-size: 20px;
+    color: black;
+}
+.forward p{
+    float: left;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 40%;
+}
+.snizy{
+    background-color: orangered;
+    height: 3px;
+    margin: 25% 20% 1% 20%;
+}
+
+
+
+
+
+
+
+/* стили для футера */
+footer{
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background-color: #fafafa;
+    border-top: 20px solid #333333;
+    margin-top: 100px;
+    position: absolute;
+}
+footer #social{
+    float: left;
+    width: 50%;
+}
+footer #social li{
+    display: inline;
+    margin-left: 3%;
+    font-size: 30px;
+    list-style-type: none;
+}
+footer li a:hover{
+    opacity: 0.6;
+    transition: 0.3s all ease;
+}
+footer #rights{
+    float: right;
+    width: 50%;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: fantasy;
+}
